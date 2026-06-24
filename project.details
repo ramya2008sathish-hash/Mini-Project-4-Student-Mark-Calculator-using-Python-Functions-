@@ -1,0 +1,47 @@
+Mini Project 4 :  Student Mark Calculator using Python Functions 
+1.Project Title  
+Student Mark Calculator using Python Functions 
+2.Problem Statement 
+To develop a simple program using Python functions that calculates the total marks and average marks of a student. 
+3.Objective 
+•	To understand the concept of functions in Python 
+•	To calculate total and average marks 
+•	To practice basic Python programming concepts 
+4.Tools Used 
+•	Python 3 
+•	IDLE / VS Code 
+5.Description 
+The Student Mark Calculator is a simple Python program that uses functions to calculate the total and average marks of a student. The program asks the user to enter marks for different subjects. Then it calculates the total marks and average using Python functions and displays the result
+6.Algorithm 
+•	Start the program 
+•	Create a function to calculate total marks 
+•	Create a function to calculate average marks 
+•	Ask the user to enter marks for subjects 
+•	Calculate total marks 
+•	Calculate average marks 
+•	Display the result 
+•	Stop the program 
+ 
+7.Program (Python Code) 
+ 
+# Function to calculate total def total_marks(m1, m2, m3):     return m1 + m2 + m3 
+ 
+# Function to calculate average def average_marks(total):     return total / 3 
+ 
+# Input marks m1 = int(input("Enter mark 1: ")) m2 = int(input("Enter mark 2: ")) m3 = int(input("Enter mark 3: ")) 
+ 
+# Function call total = total_marks(m1, m2, m3) avg = average_marks(total) 
+ 
+# Display result print("Total Marks:", total) print("Average Marks:", avg) 
+ 
+9.Result 
+ 
+The program successfully calculates the total marks and average marks using Python functions. 
+ 
+ 
+10.Conclusion 
+ 
+This project demonstrates the use of functions in Python to perform calculations. 
+It helps to understand basic programming concepts like functions and user input. 
+ 
+
